@@ -500,7 +500,7 @@
     {
       "id": "2c9951d2-86cc-44df-8d62-34227cfbef9c",
       "createdTimestamp": 1697455016022,
-      "username": "userwallet",
+      "username": "user",
       "enabled": true,
       "totp": false,
       "emailVerified": false,
@@ -514,7 +514,9 @@
           "userLabel": "My password",
           "createdDate": 1697455036355,
           "secretData": "{\"value\":\"gvmJqHZdpGwsh9vlfOPVVXOChxpdK/5OKUrzvTqLqGM=\",\"salt\":\"PkuzabKwuXLJEB6U2NLAJg==\",\"additionalParameters\":{}}",
-          "credentialData": "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+          "credentialData": "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}",
+          "value": "user",
+          "temporary": false
         }
       ],
       "disableableCredentialTypes": [],
