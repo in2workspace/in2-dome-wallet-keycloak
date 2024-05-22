@@ -1,9 +1,9 @@
 # Start with the official Keycloak image
 FROM quay.io/keycloak/keycloak:latest
 
-# Copy the realm and theme files into the image
-COPY /imports/wallet-realm.json /opt/keycloak/data/import/
+# Copy the theme and realm files into the image
 COPY /imports/themes /opt/keycloak/themes
+COPY /imports/wallet-realm.json /opt/keycloak/data/import/
 
 # Expose the port
 EXPOSE 9099
