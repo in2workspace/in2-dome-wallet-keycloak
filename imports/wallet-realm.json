@@ -1992,7 +1992,7 @@
         {
           "authenticator": "webauthn-authenticator",
           "authenticatorFlow": false,
-          "requirement": "REQUIRED",
+          "requirement": "DISABLED",
           "priority": 11,
           "autheticatorFlow": false,
           "userSetupAllowed": false
