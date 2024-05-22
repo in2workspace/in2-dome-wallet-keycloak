@@ -1,6 +1,7 @@
 {
   "id": "1d7923ea-e8dc-4c82-9987-7ced04a507e1",
   "realm": "wallet",
+  "displayName": "Wallet DOME",
   "notBefore": 0,
   "defaultSignatureAlgorithm": "RS256",
   "revokeRefreshToken": false,
