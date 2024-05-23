@@ -25,7 +25,7 @@ jobs:
 
   deploy-test:
     name: deploy-test
-    needs: build
+    needs: sonarcloud
     if: success()
     runs-on: ubuntu-latest
     environment: test
