@@ -453,13 +453,13 @@
     {
       "id": "f71c0cc3-69d1-49fd-abbf-78315b3ed4c5",
       "createdTimestamp": 1697611431853,
-      "username": "adminwallet",
+      "username": "admin",
       "enabled": true,
       "totp": false,
       "emailVerified": false,
       "firstName": "admin",
       "lastName": "wallet",
-      "email": "adminwallet@example.com",
+      "email": "admin@example.com",
       "credentials": [
         {
           "id": "a2adc3ea-ea17-42a5-bb07-26f8829e5fb1",
