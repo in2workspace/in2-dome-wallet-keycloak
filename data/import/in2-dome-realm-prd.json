@@ -496,34 +496,6 @@
       },
       "notBefore": 0,
       "groups": []
-    },
-    {
-      "id": "2c9951d2-86cc-44df-8d62-34227cfbef9c",
-      "createdTimestamp": 1697455016022,
-      "username": "user",
-      "enabled": true,
-      "totp": false,
-      "emailVerified": false,
-      "firstName": "user",
-      "lastName": "wallet",
-      "email": "userwallet@example.com",
-      "credentials": [
-        {
-          "id": "6397ea66-d438-435f-9ee1-20e091d2a78f",
-          "type": "password",
-          "userLabel": "My password",
-          "createdDate": 1697455036355,
-          "secretData": "{\"value\":\"gvmJqHZdpGwsh9vlfOPVVXOChxpdK/5OKUrzvTqLqGM=\",\"salt\":\"PkuzabKwuXLJEB6U2NLAJg==\",\"additionalParameters\":{}}",
-          "credentialData": "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}",
-          "value": "user",
-          "temporary": false
-        }
-      ],
-      "disableableCredentialTypes": [],
-      "requiredActions": [],
-      "realmRoles": ["default-roles-wallet", "user"],
-      "notBefore": 0,
-      "groups": []
     }
   ],
   "scopeMappings": [
@@ -829,8 +801,8 @@
       "alwaysDisplayInConsole": false,
       "clientAuthenticatorType": "client-secret",
       "secret": "fV51P8jFBo8VnFKMMuP3imw3H3i5mNck",
-      "redirectUris": ["http://localhost:4202"],
-      "webOrigins": ["http://localhost:4202"],
+      "redirectUris": ["https://wallet.dome-marketplace-prd.org"],
+      "webOrigins": ["https://wallet.dome-marketplace-prd.org"],
       "notBefore": 0,
       "bearerOnly": false,
       "consentRequired": false,
@@ -922,8 +894,8 @@
       "enabled": true,
       "alwaysDisplayInConsole": false,
       "clientAuthenticatorType": "client-secret",
-      "redirectUris": ["http://localhost:4202/*", "http://localhost:4202","https://in2-dome-marketplace-test.org/callback","https://wallet.dome-marketplace-sbx.org/callback","https://wallet.dome-marketplace-dev.org/callback","https://wallet.dome-marketplace-prd.org/callback"],
-      "webOrigins": ["http://localhost:4202", "http://localhost:4202", "https://in2-dome-marketplace-test.org", "https://wallet.dome-marketplace-sbx.org","https://wallet.dome-marketplace-dev.org","https://wallet.dome-marketplace-prd.org"],
+      "redirectUris": ["https://wallet.dome-marketplace-prd.org/*", "https://wallet.dome-marketplace-prd.org/callback"],
+      "webOrigins": ["https://wallet.dome-marketplace-prd.org"],
       "notBefore": 0,
       "bearerOnly": false,
       "consentRequired": false,
@@ -936,7 +908,7 @@
       "protocol": "openid-connect",
       "attributes": {
         "client.secret.creation.time": "1697455490",
-        "post.logout.redirect.uris": "http://localhost:4202##http://localhost:4202##https://in2-dome-marketplace-test.org##https://wallet.dome-marketplace-sbx.org##https://wallet.dome-marketplace-dev.org##https://wallet.dome-marketplace-prd.org",
+        "post.logout.redirect.uris": "https://wallet.dome-marketplace-prd.org",
         "oauth2.device.authorization.grant.enabled": "false",
         "backchannel.logout.revoke.offline.tokens": "false",
         "use.refresh.tokens": "true",
