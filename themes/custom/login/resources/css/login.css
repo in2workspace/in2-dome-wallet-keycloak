@@ -117,5 +117,7 @@ body {
 }
 
 @media (max-height: 860px) { 
-
+  .card-pf {
+    margin-top: 2rem;
+  }
 }
