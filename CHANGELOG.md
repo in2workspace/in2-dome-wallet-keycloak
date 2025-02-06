@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 #### [1.0.2] - (https://github.com/in2workspace/in2-dome-wallet-keycloak/releases/tag/v1.0.2)
 ### Fixed
-- In register page, form was being cut when screen scale was bigger than 100%
+- Responsive design for height
 
 ## [1.0.1] - (https://github.com/in2workspace/in2-dome-wallet-keycloak/releases/tag/v1.0.1)
 ### Fixed
