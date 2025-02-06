@@ -115,3 +115,9 @@ body {
 #input-error{
   color: red;
 }
+
+@media (min-resolution: 120dpi) { 
+  .login-pf-page {
+      height: calc(100vh - 10px); 
+  }
+}
