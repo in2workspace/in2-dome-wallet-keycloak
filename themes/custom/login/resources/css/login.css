@@ -123,6 +123,13 @@ body {
   align-items: center;
 }
 
+.login-pf{
+  background-color: #dde6f6;
+}
+
+.login-pf body{
+  background: #dde6f6;
+}
 
 @media (max-height: 860px){ 
   .form-group label {
