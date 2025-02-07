@@ -7,7 +7,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #dde6f6;
 }
 
@@ -149,10 +149,4 @@ body {
     margin-bottom: 5px;
   }
   
-}
-
-@media (max-height: 710px){
-    .login-pf-page{
-      height: auto;
-    }
 }
