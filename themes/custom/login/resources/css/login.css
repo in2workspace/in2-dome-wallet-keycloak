@@ -43,6 +43,7 @@ body {
 
 #kc-page-title {
   font-size: 1.5rem;
+  margin-top: 10px;
 }
 
 .pf-c-form__label {
@@ -116,7 +117,14 @@ body {
   color: red;
 }
 
-@media (max-height: 860px) and (min-width:1000px) { 
+.login-pf-header > div {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+@media (max-height: 860px){ 
   .form-group label {
     margin-bottom: 0;
   }
@@ -126,14 +134,18 @@ body {
   .login-pf-page .login-pf-page-header{
     margin-bottom: 20px;
   }
+  .card-pf .login-pf-header{
+    margin-bottom: 0;
+  }
+  #kc-page-title{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
 }
 
-.login-pf-header > div {
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#kc-page-title {
-  margin-top: 10px;
+@media (max-height: 680px){
+    .login-pf-page{
+      height: auto;
+    }
 }
