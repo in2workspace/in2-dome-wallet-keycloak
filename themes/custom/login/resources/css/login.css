@@ -116,14 +116,24 @@ body {
   color: red;
 }
 
-@media (max-height: 860px) { 
-  .card-pf {
-    margin-top: 2rem;
+@media (max-height: 860px) and (min-width:1000px) { 
+  .form-group label {
+    margin-bottom: 0;
+  }
+  #kc-content #kc-content-wrapper #kc-register-form .form-group{
+    margin-bottom: 10px;
+  }
+  .login-pf-page .login-pf-page-header{
+    margin-bottom: 20px;
   }
 }
 
-@media (min-height: 860px) { 
-  .card-pf {
-    margin-top: 2rem;
-  }
+.login-pf-header > div {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#kc-page-title {
+  margin-top: 10px;
 }
