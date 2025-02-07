@@ -151,7 +151,7 @@ body {
   
 }
 
-@media (max-height: 680px){
+@media (max-height: 710px){
     .login-pf-page{
       height: auto;
     }
